@@ -15,12 +15,17 @@
   - 人工智能平台融合
 
 安装Django
-'''
+```
 pip3 install django==2.2.12
-'''
+```
 
 
 检查是否安装成功
-'''
+```
 sudo pip3 freeze | grep -i 'Django'
-'''
+```
+
+## 1.02 项目结构1
+### 创建项目
+- 成功安装Django后，使用命令 `django-admin`;
+- 执行`django-admin startporject projectnanme`创建出对应项目文件夹；
